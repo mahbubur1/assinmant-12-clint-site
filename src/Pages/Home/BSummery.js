@@ -16,19 +16,19 @@ const BSummery = () => {
                         <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                             <div className="stat items-center justify-center">
                                 <h3 className='stat-value text-primary text-6xl mb-4'><GiSellCard /></h3>
-                                <div className="stat-value">500+ </div>
+                                <div className="stat-value">1000+ </div>
                             </div>
                             <div className="stat items-center justify-center">
                                 <h3 className='stat-value text-primary text-6xl mb-4'><GiRevolt /></h3>
-                                <div className="stat-value">170M+</div>
+                                <div className="stat-value">150M+</div>
                             </div>
                             <div className="stat items-center justify-center">
                                 <h3 className='stat-value text-primary text-6xl mb-4'><MdReviews /></h3>
-                                <div className="stat-value">77k+</div>
+                                <div className="stat-value">50k+</div>
                             </div>
                             <div className="stat items-center justify-center">
                                 <h3 className='stat-value text-primary text-6xl mb-4'><BsTools /></h3>
-                                <div className="stat-value">50+</div>
+                                <div className="stat-value">60+</div>
                             </div>
                         </div>
 
