@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>Home - Digitaz LTD.</title>
+                <title>Home - KING BD</title>
             </Helmet>
             <Banner />
             <Products />
