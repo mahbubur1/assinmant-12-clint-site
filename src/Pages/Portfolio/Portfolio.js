@@ -9,16 +9,16 @@ const Portfolio = () => {
 
             <div>
                 <div class="avatar flex justify-center">
-                    <div class="w-36 mask mask-hexagon">
+                    <div class="w-36 rounded-full">
                         <img src={me} alt='' />
                     </div>
                 </div>
                 <div className=''>
-                    <h3 className='text-2xl text-center text-transparent bg-clip-text bg-gradient-to-br from-accent to-secondary mt-3'>Mohammad Masum Abduss Sobhan</h3>
+                    <h3 className='text-2xl text-center text-indigo-900 bg-clip-text bg-gradient-to-br from-accent to-secondary mt-3 font-bold'>Mahbubur Rahman</h3>
                     <div className='flex flex-col justify-center items-center mb-6'>
-                        <h3 className='text-lg text-sky-500'>abduss.sobhan28@gmail.com</h3>
-                        <Link to='https://www.linkedin.com/in/abduss-sobhan/' class="text-lg btn-active btn-info btn-link">Linkedin profile</Link >
-                        <Link to='http://im-mr-mads.web.app/' class="text-lg btn-active btn-info btn-link">Portfolio</Link >
+                        <h3 className='text-lg text-sky-600'>mdmahbuborr462@gmail.com</h3>
+                        <a href='https://www.linkedin.com/in/md-mahbubor-rahman-a2870723b/' class="text-lg btn-active btn-info btn-link">Linkedin profile</a >
+                        <a href='https://mahbubur1.github.io/assinmant-1/' class="text-lg btn-active btn-info btn-link">Portfolio</ a>
                     </div>
                     <div className='flex justify-center items-center mb-10'>
                         <div class="card w-full md:w-2/4 lg:w-2/5 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-primary-content">
