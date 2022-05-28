@@ -14,7 +14,7 @@ const AddReview = () => {
     const name = user?.displayName;
     const review = { review: ratings, description, img, name };
 
-    fetch("http://localhost:5000/review", {
+    fetch("https://fast-fjord-25357.herokuapp.com/review", {
       method: "POST",
       headers: {
         "content-type": "application/json",

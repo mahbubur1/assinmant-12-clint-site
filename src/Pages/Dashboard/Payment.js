@@ -19,7 +19,7 @@ const Payment = () => {
     isLoading,
     error,
   } = useQuery(["orders", paymentId], () =>
-    fetch(`http://localhost:5000/orders/${paymentId}`, {
+    fetch(`https://fast-fjord-25357.herokuapp.com/orders/${paymentId}`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

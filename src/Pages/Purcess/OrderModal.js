@@ -25,7 +25,7 @@ const OrderModal = ({ order, setOrder }) => {
       paid: false,
     };
 
-    fetch("http://localhost:5000/order", {
+    fetch("https://fast-fjord-25357.herokuapp.com/order", {
       method: "POST",
       headers: {
         "content-type": "application/json",

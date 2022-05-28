@@ -13,7 +13,7 @@ const OrderModal = ({ profile, refetch, setModalClose }) => {
     const linkedin = e.target.linkedin.value;
     const profile = { education, location, phone, linkedin };
 
-    fetch(`http://localhost:5000/user/${email}`, {
+    fetch(`https://fast-fjord-25357.herokuapp.com/user/${email}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

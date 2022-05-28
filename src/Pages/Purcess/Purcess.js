@@ -19,7 +19,9 @@ const Purcess = () => {
     isLoading,
     error,
   } = useQuery("purcess", () =>
-    fetch(`http://localhost:5000/product/${id}`).then((res) => res.json())
+    fetch(`https://fast-fjord-25357.herokuapp.com/product/${id}`).then((res) =>
+      res.json()
+    )
   );
 
   if (isLoading) {

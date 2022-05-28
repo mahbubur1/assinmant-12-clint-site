@@ -18,7 +18,9 @@ const Profile = () => {
     error,
     refetch,
   } = useQuery("porfile", () =>
-    fetch(`http://localhost:5000/user/${user?.email}`).then((res) => res.json())
+    fetch(`https://fast-fjord-25357.herokuapp.com/user/${user?.email}`).then(
+      (res) => res.json()
+    )
   );
 
   if (isLoading) {

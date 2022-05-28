@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 const DeleverdModal = ({ setModalClose, _id, name, refetch }) => {
   const handleAdmin = () => {
     const role = { role: "admin" };
-    fetch(`http://localhost:5000/users/${_id}`, {
+    fetch(`https://fast-fjord-25357.herokuapp.com/users/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
