@@ -4,10 +4,7 @@ const Contact = () => {
   return (
     <div className='bg-sky-100 px-10 py-14 '>
       <div className='text-center pb-14 text-primary'>
-        <p className='text-xl font-bold'>
-          Contact Us
-        </p>
-        <h1 className='text-4xl'>Stay connected with us</h1>
+        <h1 className='text-4xl'>Contact Us</h1>
       </div>
       <div className='grid grid-cols-1 justify-items-center gap-5 bg-gradient-to-r from-yellow-300 to-green-600 py-10 rounded '>
         <input
