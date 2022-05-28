@@ -74,7 +74,7 @@ const Banner = () => {
                     <FaShippingFast className='text-7xl mx-3 text-primary' />
                     <div>
                         <h3 className='text-lg font-bold'>Free Shipping</h3>
-                        <h5 className='text-sm'>For Orders From $50</h5>
+                        <h5 className='text-sm'>For Orders From $100</h5>
                     </div>
                 </div>
                 <div className="flex items-center border-2">
@@ -95,7 +95,7 @@ const Banner = () => {
                     <MdLocalOffer className='text-7xl mx-3 text-primary' />
                     <div>
                         <h3 className='text-lg font-bold'>Hot Offers</h3>
-                        <h5 className='text-sm'>Discounts up to 90%</h5>
+                        <h5 className='text-sm'>Discounts up to 60%</h5>
                     </div>
                 </div>
             </div>
